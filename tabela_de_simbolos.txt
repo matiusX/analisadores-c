@@ -1,0 +1,12 @@
+
+------------------------TABELA DE SÍMBOLOS---------------------------
+
+POSIÇÃO  |  IDENTIFICADOR  |  TIPO
+
+3  |  cont  |   ERRO: ID NÃO DEFINIDO
+1  |  flag  |  bool
+0  |  var  |  int
+2  |  var2  |  char
+4  |  var3  |  double
+5  |  var4  |   ERRO: ID NÃO DEFINIDO
+----------------------------------------------------------

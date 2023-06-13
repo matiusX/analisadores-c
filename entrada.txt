@@ -1,0 +1,4 @@
+int var ;
+while (var == 2) {
+    return 3;
+}

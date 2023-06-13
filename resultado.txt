@@ -1,0 +1,5 @@
+PALAVRA RESERVADA: int
+IDENTIFICADOR: var
+PONTO E VÍRGULA
+PALAVRA RESERVADA: while
+Erro na linha 2: syntax error próximo ao token 'while'

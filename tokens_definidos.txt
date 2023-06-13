@@ -1,0 +1,85 @@
+ arquivo contendo todos os lexemas e seus respectivos tokens
+
+=========== PALAVRAS RESERVADAS ===========
+
+bool BOOL
+break BREAK
+char CHAR
+continue CONTINUE
+do DO
+double NUM_DOUBLE
+else ELSE
+false FALSE
+float NUM_FLOAT
+for FOR
+goto GOTO
+if IF
+int NUM_INT
+return RETURN
+true TRUE
+void VOID
+while WHILE
+
+================ OPERADORES ================
+
++   OP_SOMA
+-   OP_SUB
+*   OP_MULT
+/   OP_DIV
+%   RESTO
+?   QUEST
+:   COLON
+!   NEG
+&   ADDR
+->  ARROW
+<   LESS
+>   GREATER
+==  EQUAL
+=   ATR
+!=  DIF
+<=  LESS_EQ
+>=  GREATER_EQ
++=  PLUS_EQ
+-=  MINUS_EQ
+*=  MULT_EQ
+/=  DIV_EQ
+%=  RESTO_EQ
+++  INCR
+--  DECRE
+&&  AND
+||  OR
+
+============= SINAIS DE PONTUAÇÃO =============
+
+,   COMMA
+;   PV
+(   PARENT_OP
+)   PARENT_CL
+{   CHAVE_OP
+}   CHAVE_CL
+[   COLCH_OP
+]   COLCH_CL
+
+============== LITERAIS BÁSICOS ==============
+
+inteiros    NUM_INT
+reais       NUM_FLOAT   (número.número)
+caracteres  CARACTERE   (um símbolo entre '')
+strings     STRING      (tudo entre "")
+booleanos   BOOL        (true ou false)
+
+============== IDENTIFICADORES ==============
+
+variáveis   letra(letra | dígito)*
+
+=============================================
+
+
+
+
+============== NÃO GERAM TOKENS ==============
+
+comentários     (tudo que estiver entre /* e */ ou depois de //)
+separadores
+
+=============================================

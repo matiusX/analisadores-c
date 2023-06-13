@@ -1,0 +1,17 @@
+int var = 2;
+bool flag = false;		// TESTANDO
+
+^
+if(flag == false) {
+	return 1;
+	char var2 = 'b';
+	cont = 1;
+}
+
+/* testando
+	aqui também */
+
+else {
+	double var3 = 49;
+	var4 = 34;
+}
